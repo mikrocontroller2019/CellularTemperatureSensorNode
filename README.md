@@ -1,4 +1,4 @@
-# CellularTemperatureSensorNode
+# Cellular Temperature Sensor Node
 This project shows how to connect an ESP32 board to the Internet using an additional SIM800L board and a SIM card data plan.
 
 ## Description
@@ -46,3 +46,5 @@ Configure the following lines for access to your MQTT broker
 
 ## Schema
 See file **CellularTemperatureSensorNode.fzz** for details.
+
+![alt text](https://raw.githubusercontent.com/mikrocontroller2019/CellularTemperatureSensorNode/master/CellularTemperatureSensorNode_bb.png "Schema")
