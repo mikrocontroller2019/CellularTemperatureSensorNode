@@ -8,6 +8,8 @@ The MCU board used for this device is a **ESP32 NodeMCU Module WiFi Development 
 
 The read temperature values are published to a *MQTT* broker.
 
+After publishing the sensor reading the GSM modem is put into power safe mode and the ESP32 is set to deep sleep mode for a specified period of time.
+
 ## BOM
 * ESP32 NodeMCU Module WiFi Development Board with CP2102
 * SIM800L GSM GPRS Modul
@@ -42,6 +44,11 @@ Configure the following lines for access to your MQTT broker
 #define MQTT_SERVER "mqtt.eclipse.org"
 #define MQTT_PORT 1883
 #define MQTT_TOPIC "/ACME/DevTest/Sensors"
+```
+
+The wake-up / publishing interval time can be configured by changing the value for TIME_TO_SLEEP (seconds):
+```C
+#define TIME_TO_SLEEP 60 
 ```
 
 ## Schema
