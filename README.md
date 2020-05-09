@@ -14,6 +14,8 @@ After publishing the sensor reading the GSM modem is put into power safe mode an
 * ESP32 NodeMCU Module WiFi Development Board with CP2102
 * SIM800L GSM GPRS Modul
 * DS18B20 1-wire digital temperatur sensor, waterproof, 3m cable
+* 4,7 kOhm resistor
+* 1N4007 diode
 * Breadboard(s) & jumper wires
 * SIM with data plan
 
@@ -52,6 +54,4 @@ The wake-up / publishing interval time can be configured by changing the value f
 ```
 
 ## Schema
-See file **CellularTemperatureSensorNode.fzz** for details.
-
-![alt text](https://raw.githubusercontent.com/mikrocontroller2019/CellularTemperatureSensorNode/master/CellularTemperatureSensorNode_bb.png "Schema")
+See Fritzing sketch **CellularTemperatureSensorNode.fzz** for details.
