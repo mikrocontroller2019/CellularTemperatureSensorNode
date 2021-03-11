@@ -2,7 +2,7 @@
 This project shows how to connect an ESP32 board to the Internet using an additional SIM800L board and a SIM card data plan.
 
 ## Description
-This project shows how to connect an ESP32 board to the Internet using an additional SIM800L board and a SIM card data plan.
+To monitor temperatures (e.g. body temperature, water temperature, machine temperature etc.) in remote locations with access to WIFI and without permanent power supply, this project shows how to connect an ESP32 board to the Internet using an additional SIM800L board and a SIM card data plan and to transfer sensor readings into the cloud with low power consumption.
 
 The MCU board used for this device is a **ESP32 NodeMCU Module WiFi Development Board with CP2102**. To connect to the internet via cellular network a **SIM800L GSM GPRS Modul** with Antenna is used and the senor for temperature meassuring is a waterproof encapsuled **DS18B20** 1-wire digital temperatur sensor.
 
